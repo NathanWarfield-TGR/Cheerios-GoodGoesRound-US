@@ -1,0 +1,467 @@
+#content_goodgoesround {
+    section {
+        padding: 25px;
+        @include breakpoint(sm) {
+            padding: 25px 0;
+        }
+    }
+
+    .wrapper-content {
+        margin: 0 auto;
+        height: auto;
+        @include breakpoint(phone){
+            width: 310px;
+        }
+        @include breakpoint(sm){
+            width: 728px;
+        }
+        @include breakpoint(md){
+            width: 980px;
+        }
+        @include breakpoint(lg){
+            width: 1160px;
+        }
+    }
+
+    h1, h2, h3, h4 {
+        font-family: "ProximaNova-Bold";
+    }
+    p, dd, dt, dl {
+        font-family: $fontstack;
+    }
+    p {
+        @include breakpoint(phone) {
+            text-align: justify;
+        }
+    }
+
+    section#hero {
+        @include cheeriosGradient(){}
+        .image {
+            width: 33%;
+            float: left;
+            @include breakpoint(phone) {
+                width: 100%;
+            }
+            img {
+                margin-left: -9%;
+                width: 90%;
+                @include breakpoint(lg){
+                    width: 100%;
+                }
+                @include breakpoint(phone) {
+                    margin-left: 0;
+                }
+            }
+        }
+        .content {
+            width: 67%;
+            float: left;
+            padding-top: 95px;
+            @include breakpoint(phone) {
+                width: 100%;
+                padding-top: 25px;
+            }
+            > * {
+                padding-left: 50px;
+                @include breakpoint(phone) {
+                    padding-left: 0;
+                }
+            }
+            h1 {
+                font-size: 75px;
+                color: #FFF;
+                font-weight: 600;
+                margin-bottom: 0.15em;
+                span {
+                    font-size: 75%;
+                }
+                @include breakpoint(phone){
+                    font-size: 30px;
+                }
+                @include breakpoint(tablet){
+                    font-size: 40px;
+                }
+                @include breakpoint(sm){
+                    font-size: 40px;
+                }
+                @include breakpoint(md){
+                    font-size: 60px;
+                }
+                @include breakpoint(lg){
+
+                }
+
+            }
+
+            h2 {
+                font-size: 1.8vw;
+                line-height: 1.2;
+                text-align: center;
+                margin-bottom: 3em;
+                @include breakpoint(md) {
+                    font-size: 1.6vw;
+                }
+                @include breakpoint(phone) {
+                    font-size: 3.8vw;
+                    margin-bottom: 2em;
+                }
+            }
+
+            p {
+                font-size: 21px;
+                line-height: 1.2em;
+                @include breakpoint(sm) {
+                    font-size: 15px;
+                }
+                @include breakpoint(phone) {
+                    font-size: 15px;
+                }
+            }
+
+            div.inpartnership {
+                font-family: "ProximaNova-Bold";
+                font-size: 14px;
+                line-height: 100px;
+                @include breakpoint(md) {
+                    font-size: 11px;
+                }
+                @include breakpoint(phone) {
+                    line-height: 25px;
+                    padding-top: 30px;
+                }
+                .feedingAmerica {
+                    float: right;
+                    font-size: 11px;
+                    font-family: $fontstack;
+                    @include breakpoint(sm) {
+                        float: none;
+                    }
+                    img {
+                        margin-bottom: 15px;
+                        width: 135px;
+                    }
+                }
+            }
+        }
+    }
+
+    section#goal {
+        background: #ffd10f;
+        text-align: center;
+        h2 {
+            font-family: 'ProximaNova-Extrabld';
+            font-size: 6vw; //83px
+            padding: 0.75em 0;
+            strong {
+                display: inline-block;
+                position: relative;
+                top: -6px;
+                margin: 15px;
+                @include breakpoint(phone) {
+                    position: static;
+                    margin: 0;
+                    margin-right: 10px;
+                }
+            }
+            span {
+                color: #FFF;
+                font-size: 90%;
+                @include breakpoint(phone) {
+                    font-size: 100%;
+                }
+            }
+        }
+    }
+
+    section#howtohelp {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        @include breakpoint(phone) {
+            padding-top: 0;
+        }
+        @include cheeriosGradient(){}
+        .image {
+            float: left;
+            width: 33%;
+            @include breakpoint(phone) {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            img {
+                margin-top: 15%;
+                width: 100%;
+            }
+        }
+        .content {
+            vertical-align: top;
+            float: left;
+            padding-left: 40px;
+            width: 60%;
+            @include breakpoint(phone) {
+                width: 100%;
+                padding-left: 0;
+            }
+            h2 {
+                font-size: 75px;
+                color: #FFF;
+                margin-bottom: 40px;
+                @include breakpoint(sm) {
+                    font-size: 45px;
+                }
+                @include breakpoint(phone) {
+                    font-size: 30px;
+                }
+            }
+            dl {
+                display: block;
+                clear: both;
+                margin-bottom: 20px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                dt {
+                    vertical-align: top;
+                    display: inline-block;
+                    border: solid 2px #FFF;
+                    color: #FFF;
+                    text-align: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    margin-right: 15px;
+                    span {
+                        font-size: 35px;
+                        font-family: 'ProximaNova-Bold';
+                        display: block;
+                        margin-top: 8px;
+                        @include breakpoint(phone) {
+                            width: 100%;
+                        }
+                    }
+                }
+                dd {
+                    vertical-align: top;
+                    display: inline-block;
+                    width: 600px;
+                    @include breakpoint(md) {
+                        width: 400px;
+                    }
+                    @include breakpoint(sm) {
+                        width: 250px;
+                    }
+                    @include breakpoint(phone) {
+                        width: 70%;
+                    }
+                    h3 {
+                        font-size: 25px;
+                        margin-top: 15px;
+                        margin-bottom: 20px;
+                        @include breakpoint(phone) {
+                            font-size: 23px;
+                        }
+                        span {
+                            display: inline-block;
+                            height: 32px;
+                            font-size: 14px;
+                            margin-top: -9px;
+                            margin-left: 20px;
+                            a {
+                                width: 32px;
+                                height: 32px;
+                                display: inline-block;
+                                background-image: url('/Assets/images/sprite-social-ggr.png');
+                                background-repeat: no-repeat;
+                                position: relative;
+                                top: 6px;
+                                margin-right: 10px;
+                                &.facebook {
+
+                                }
+                                &.twitter {
+                                    background-position: -84px 0;
+                                }
+                                &.instagram {
+
+                                }
+                            }
+                        }
+                    }
+                    p {
+                        font-size: 21px;
+                        line-height: 1.2;
+                        @include breakpoint(sm) {
+                            font-size: 15px;
+                        }
+                        @include breakpoint(phone) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section#video {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: #ffd10f;
+        .video-container {
+            margin-top: 0;
+            width: 66%;
+            float: left;
+            position: static;
+            @include breakpoint(phone) {
+                width: 100%;
+            }
+            iframe {
+                width: 100%;
+                height: 431px;
+                @include breakpoint(phone) {
+                    height: 200px;
+                }
+            }
+        }
+        .content {
+            float: right;
+            width: 31%;
+            @include breakpoint(phone) {
+                width: 100%;
+            }
+            img {
+                margin-top: 70px;
+            }
+            h2 {
+                color: #FFF;
+                font-size: 73px;
+                line-height: 0.85em;
+                @include breakpoint(sm) {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+    section#partners1 {
+        padding: 0;
+        @include cheeriosGradient(){}
+        .content {
+            padding-top: 50px;
+            width: 40%;
+            float: left;
+            @include breakpoint(phone) {
+                width: 100%;
+            }
+            h4 {
+                font-size: 20px;
+                color: #FFF;
+                padding-bottom: 30px;
+            }
+            img {
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 21px;
+                color: #FFF;
+                line-height: 1.2em;
+                padding-right: 80px;
+                @include breakpoint(sm) {
+                    font-size: 15px;
+                }
+                @include breakpoint(phone) {
+                    width: 100%;
+                    padding-right: 0;
+                    font-size: 15px;
+                }
+            }
+        }
+        .image {
+            width: 60%;
+            height: 560px;
+            float: right;
+            display: inline-block;
+            background-image: url('/Assets/images/ggr-photo-1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            @include breakpoint(sm) {
+                height: 350px;
+                width: 45%;
+            }
+            @include breakpoint(phone) {
+                width: 100%;
+                height: 200px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    section#partners2 {
+        padding: 0;
+        background: #ffd10f;
+        .content {
+            padding-top: 50px;
+            width: 40%;
+            float: right;
+            @include breakpoint(phone) {
+                width: 100%;
+            }
+            h4 {
+                font-size: 20px;
+                color: #FFF;
+                padding-bottom: 80px;
+                @include breakpoint(phone) {
+                    padding-bottom: 20px;
+                }
+            }
+            img {
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 21px;
+                color: #FFF;
+                line-height: 1.2em;
+                @include breakpoint(sm) {
+                    font-size: 15px;
+                }
+                @include breakpoint(phone) {
+                    font-size: 15px;
+                    padding-bottom: 40px;
+                }
+            }
+            h4, img, p {
+                padding-left: 80px;
+                @include breakpoint(phone) {
+                    padding-left: 0;
+                }
+            }
+        }
+        .image {
+            width: 60%;
+            height: 560px;
+            float: left;
+            display: inline-block;
+            background-image: url('/Assets/images/ggr-photo-2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            @include breakpoint(sm) {
+                height: 350px;
+                width: 45%;
+            }
+            @include breakpoint(phone) {
+                width: 100%;
+                height: 200px;
+                margin-top: 40px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    section#sharecontent {
+        @include cheeriosGradient(){}
+        p {
+            padding: 30px 0 50px 0;
+        }
+    }
+
+}

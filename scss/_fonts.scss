@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('/Assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/ProximaNova-Regular.otf') format('opentype'), url('/Assets/fonts/ProximaNova-Regular.woff') format('woff'), url('/Assets/fonts/ProximaNova-Regular.ttf') format('truetype'), url('/Assets/fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('/Assets/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/ProximaNova-Semibold.otf') format('opentype'), url('/Assets/fonts/ProximaNova-Semibold.woff') format('woff'), url('/Assets/fonts/ProximaNova-Semibold.ttf') format('truetype'), url('/Assets/fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src: url('/Assets/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/ProximaNova-Bold.otf') format('opentype'), url('/Assets/fonts/ProximaNova-Bold.woff') format('woff'), url('/Assets/fonts/ProximaNova-Bold.ttf') format('truetype'), url('/Assets/fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'ProximaNova-Extrabld';
+    src: url('/Assets/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/ProximaNova-Extrabld.otf') format('opentype'), url('/Assets/fonts/ProximaNova-Extrabld.woff') format('woff'), url('/Assets/fonts/ProximaNova-Extrabld.ttf') format('truetype'), url('/Assets/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_roundedbold';
+    src: url('/Assets/fonts/gothamrounded-bold-webfont.eot');
+    src: url('/Assets/fonts/gothamrounded-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/gothamrounded-bold-webfont.woff') format('woff'), url('/Assets/fonts/gothamrounded-bold-webfont.ttf') format('truetype'), url('/Assets/fonts/gothamrounded-bold-webfont.svg#gotham_roundedbold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'cheeriosregular';
+    src: url('/Assets/fonts/cheerios-regular-webfont.eot');
+    src: url('/Assets/fonts/cheerios-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/cheerios-regular-webfont.woff') format('woff'), url('/Assets/fonts/cheerios-regular-webfont.ttf') format('truetype'), url('/Assets/fonts/cheerios-regular-webfont.svg#cheeriosregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'gotham_roundedmedium';
+    src: url('/Assets/fonts/gothamrounded-medium-webfont.eot');
+    src: url('/Assets/fonts/gothamrounded-medium-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/gothamrounded-medium-webfont.woff') format('woff'), url('/Assets/fonts/gothamrounded-medium-webfont.ttf') format('truetype'), url('/Assets/fonts/gothamrounded-medium-webfont.svg#gotham_roundedmedium') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfaxlight';
+    src: url('/Assets/fonts/colfax-light-webfont.eot');
+    src: url('/Assets/fonts/colfax-light-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/colfax-light-webfont.woff') format('woff'), url('/Assets/fonts/colfax-light-webfont.ttf') format('truetype'), url('/Assets/fonts/colfax-light-webfont.svg#colfaxlight') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax_regularregular';
+    src: url('/Assets/fonts/colfax-regular-webfont.eot');
+    src: url('/Assets/fonts/colfax-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/colfax-regular-webfont.woff') format('woff'), url('/Assets/fonts/colfax-regular-webfont.ttf') format('truetype'), url('/Assets/fonts/colfax-regular-webfont.svg#colfax_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax_medium';
+    src: url('/Assets/fonts/colfaxmedium-webfont.eot');
+    src: url('/Assets/fonts/colfaxmedium-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/colfaxmedium-webfont.woff') format('woff'), url('/Assets/fonts/colfaxmedium-webfont.ttf') format('truetype'), url('/Assets/fonts/colfaxmedium-webfont.svg#colfax_mediummedium') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax_bold';
+    src: url('/Assets/fonts/colfaxbold-webfont.woff') format('woff'), url('/Assets/fonts/colfaxbold-webfont.ttf') format('truetype'), url('/Assets/fonts/colfaxbold-webfont.svg#colfax_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wendy_lpbold';
+    src: url('/Assets/fonts/Wendy LP Bold-webfont.eot');
+    src: url('/Assets/fonts/Wendy LP Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/Wendy LP Bold-webfont.woff') format('woff'), url('/Assets/fonts/Wendy LP Bold-webfont.ttf') format('truetype'), url('/Assets/fonts/Wendy LP Bold-webfont.svg#wendy_lpbold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'CircularStd-Black';
+    src: url('/Assets/fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/CircularStd-Black.otf') format('opentype'), url('/Assets/fonts/CircularStd-Black.woff') format('woff'), url('/Assets/fonts/CircularStd-Black.ttf') format('truetype'), url('/Assets/fonts/CircularStd-Black.svg#CircularStd-Black') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'CircularStd-Medium';
+    src: url('/Assets/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), url('/Assets/fonts/CircularStd-Medium.otf') format('opentype'), url('/Assets/fonts/CircularStd-Medium.woff') format('woff'), url('/Assets/fonts/CircularStd-Medium.ttf') format('truetype'), url('/Assets/fonts/CircularStd-Medium.svg#CircularStd-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal
+}

@@ -1,0 +1,44 @@
+@mixin breakpoint($point) {
+    @if $point == phoneSm {
+        @media only screen and (max-width: 320px) { @content; }
+    }
+    @if $point == phone {
+        @media only screen and (max-width: 640px) { @content; }
+    }
+    @if $point == tablet {
+        @media only screen and (min-width: 641px) and (max-width: 768px) { @content; }
+    }
+    @if $point == tabletL {
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; }
+    }
+    @if $point == tabletP {
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; }
+    }
+    @if $point == sm {
+        @media only screen and (min-width: 769px) and (max-width: 992px) { @content; }
+    }
+    @if $point == md {
+        @media only screen and (min-width: 993px) and (max-width: 1199px) { @content; }
+    }
+    @if $point == lg {
+        @media only screen and (min-width: 1200px) { @content; }
+    }
+}
+
+$fontstack: 'Arial', 'Helvetica', sans-serif;
+
+@mixin gradient($top, $bottom){
+    background: $top;
+    background: -moz-linear-gradient(top,  $top 0%, $bottom 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom));
+    background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%);
+    background: -o-linear-gradient(top,  $top 0%,$bottom 100%);
+    background: -ms-linear-gradient(top,  $top 0%,$bottom 100%);
+    background: linear-gradient(to bottom,  $top 0%,$bottom 100%);
+}
+
+@mixin cheeriosGradient(){
+    background: -moz-linear-gradient(left, #cd6914 0%, #f8b30f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #cd6914 0%,#f8b30f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #cd6914 0%,#f8b30f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
