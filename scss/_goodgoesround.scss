@@ -29,11 +29,6 @@
     p, dd, dt, dl {
         font-family: $fontstack;
     }
-    p {
-        @include breakpoint(phone) {
-            text-align: justify;
-        }
-    }
 
     section#hero {
         @include cheeriosGradient(){}
