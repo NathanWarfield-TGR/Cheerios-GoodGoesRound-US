@@ -15986,11 +15986,6 @@ body.BringBackTheBees #content .bottom-list ol li a, body.BringBackTheBeesMap #c
 #content_goodgoesround p, #content_goodgoesround dd, #content_goodgoesround dt, #content_goodgoesround dl {
   font-family: "Arial", "Helvetica", sans-serif;
 }
-@media only screen and (max-width: 640px) {
-  #content_goodgoesround p {
-    text-align: justify;
-  }
-}
 #content_goodgoesround section#hero {
   background: -moz-linear-gradient(left, #cd6914 0%, #f8b30f 100%);
   /* FF3.6-15 */
@@ -16046,6 +16041,7 @@ body.BringBackTheBees #content .bottom-list ol li a, body.BringBackTheBeesMap #c
   color: #FFF;
   font-weight: 600;
   margin-bottom: 0.15em;
+  font-family: 'ProximaNova-Extrabld';
 }
 #content_goodgoesround section#hero .content h1 span {
   font-size: 75%;
@@ -16104,7 +16100,7 @@ body.BringBackTheBees #content .bottom-list ol li a, body.BringBackTheBeesMap #c
 #content_goodgoesround section#hero .content div.inpartnership {
   font-family: "ProximaNova-Bold";
   font-size: 14px;
-  line-height: 100px;
+  line-height: 130px;
 }
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
   #content_goodgoesround section#hero .content div.inpartnership {
@@ -16155,12 +16151,6 @@ body.BringBackTheBees #content .bottom-list ol li a, body.BringBackTheBeesMap #c
 }
 #content_goodgoesround section#goal h2 span {
   color: #FFF;
-  font-size: 90%;
-}
-@media only screen and (max-width: 640px) {
-  #content_goodgoesround section#goal h2 span {
-    font-size: 100%;
-  }
 }
 #content_goodgoesround section#howtohelp {
   padding-top: 75px;
@@ -16205,6 +16195,7 @@ body.BringBackTheBees #content .bottom-list ol li a, body.BringBackTheBeesMap #c
 }
 #content_goodgoesround section#howtohelp .content h2 {
   font-size: 75px;
+  font-family: 'ProximaNova-Extrabld';
   color: #FFF;
   margin-bottom: 40px;
 }
@@ -16289,8 +16280,6 @@ body.BringBackTheBees #content .bottom-list ol li a, body.BringBackTheBeesMap #c
   width: 32px;
   height: 32px;
   display: inline-block;
-  background-image: url("/Assets/images/sprite-social-ggr.png");
-  background-repeat: no-repeat;
   position: relative;
   top: 6px;
   margin-right: 10px;

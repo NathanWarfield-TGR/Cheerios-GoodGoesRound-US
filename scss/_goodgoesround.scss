@@ -68,6 +68,7 @@
                 color: #FFF;
                 font-weight: 600;
                 margin-bottom: 0.15em;
+                font-family: 'ProximaNova-Extrabld';
                 span {
                     font-size: 75%;
                 }
@@ -117,7 +118,7 @@
             div.inpartnership {
                 font-family: "ProximaNova-Bold";
                 font-size: 14px;
-                line-height: 100px;
+                line-height: 130px;
                 @include breakpoint(md) {
                     font-size: 11px;
                 }
@@ -161,9 +162,9 @@
             }
             span {
                 color: #FFF;
-                font-size: 90%;
+                //font-size: 90%;
                 @include breakpoint(phone) {
-                    font-size: 100%;
+                    //font-size: 100%;
                 }
             }
         }
@@ -199,6 +200,7 @@
             }
             h2 {
                 font-size: 75px;
+                font-family: 'ProximaNova-Extrabld';
                 color: #FFF;
                 margin-bottom: 40px;
                 @include breakpoint(sm) {
@@ -265,8 +267,8 @@
                                 width: 32px;
                                 height: 32px;
                                 display: inline-block;
-                                background-image: url('/Assets/images/sprite-social-ggr.png');
-                                background-repeat: no-repeat;
+                                //background-image: url('/Assets/images/sprite-social-ggr.png');
+                                //background-repeat: no-repeat;
                                 position: relative;
                                 top: 6px;
                                 margin-right: 10px;
